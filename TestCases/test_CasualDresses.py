@@ -16,7 +16,7 @@ class Test_CasualDresses:
     passwordW = loginData.getPassword1()
     logger = LogGen.loggen()
 
-    @pytest.mark.Regression
+    @pytest.mark.Sanity
     def test_CasualDresses_navigation(self, setup):
         self.logger.info("*** Verify Casual Dresses navigation ***")
         self.driver = setup
