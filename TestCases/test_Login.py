@@ -37,7 +37,7 @@ class Test_Login:
             assert False
 
 
-    @pytest.mark.Regression
+    @pytest.mark.Sanity
     def test_invalid_login(self, setup):
         self.logger.info("*** Verify Invalid Login Test ***")
         self.driver = setup
