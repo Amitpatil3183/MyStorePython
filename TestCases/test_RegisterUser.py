@@ -11,6 +11,7 @@ from TestData.loginData import loginData
 import time
 
 
+
 class Test_RegisterUser:
 
     baseURL = loginData.getApplicationURL()
