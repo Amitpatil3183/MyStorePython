@@ -26,7 +26,7 @@ class Test_Login:
         self.lp.clickSignInButton()
         act_tittle = self.driver.title
 
-        if act_tittle == "My account - My Store":
+        if act_tittle == "My account - My Store":   
             self.logger.info("**** Login Test Case is passed ****")
             self.driver.close()
             assert True
